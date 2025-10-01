@@ -1,5 +1,19 @@
 Datasource: https://www.kaggle.com/currie32/crimes-in-chicago
 
+ ## 📊 Predictions
+
+Using Facebook’s **Prophet** model, I generated forecasts of crime rates in Chicago.  
+
+### Forecast Plot
+The blue line represents the predicted trend, while the shaded area indicates uncertainty intervals.
+
+![Predictions](predictions.jpg)
+
+### Trend & Seasonality Components
+The decomposition shows the overall trend and seasonal patterns of crimes reported.
+
+![Forecast Components](forecast%201.jpg)
+
 # Predict Crime Rate in Chicago
 - This project focuses on analyzing and forecasting crime trends in the city of Chicago using the Chicago Crime Dataset.
 - The dataset contains a summary of all reported crimes in Chicago between 2001 and 2017, covering several million records.
@@ -25,6 +39,5 @@ Datasource: https://www.kaggle.com/currie32/crimes-in-chicago
 - pandas, numpy – data handling
 - matplotlib, seaborn – visualization
 - fbprophet (Prophet by Facebook) – time series forecasting
-## Results
-- Clear seasonal and yearly crime patterns identified.
-- Forecast plots showing predicted trends in crime rates.
+
+
